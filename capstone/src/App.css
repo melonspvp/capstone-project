@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Largura da scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Cor do fundo da scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38e6f6; /* Cor da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38e6f6; /* Cor da barra de rolagem ao passar o mouse */
+}
