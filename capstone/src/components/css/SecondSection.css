@@ -1,0 +1,38 @@
+.ss-main-div {
+  display: flex;
+  border: 1px solid black;
+  height: 30vh;
+  width: 100%;
+  background-color: #030b13;
+  align-items: end;
+  & .ss-text-div {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    border: 1px solid white;
+    & .color-text-left {
+      display: flex;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        #030b13 0%,
+        #024048 50%,
+        #00555f 75%,
+        #006873 100%
+      );
+    }
+    & .color-text-right {
+      display: flex;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        #006873 0%,
+        #00555f 25%,
+        #024048 50%,
+        #030b13 100%
+      );
+    }
+  }
+}
