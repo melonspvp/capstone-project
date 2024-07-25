@@ -7,7 +7,11 @@ export default function FirstSection() {
       <div className="ss-text-div">
         <div className="color-text-left"></div>
         <div className="color-text-right"></div>
-        <div className="absolut-box"></div>
+        <div className="absolute-box">
+          <p className="absolute-text">
+            If you have goals, we have a plan for you.
+          </p>
+        </div>
       </div>
     </div>
   );
