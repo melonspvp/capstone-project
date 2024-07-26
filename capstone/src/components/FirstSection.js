@@ -16,7 +16,7 @@ export default function FirstSection() {
             <span className="blue-text">
               shield your mind, enrich your pocket and get in shape
             </span>{" "}
-            this year with Pablo Marçal, Renato Cariani and Marcos Paulo.
+            this year with Pablo Marçal, Renato Cariani.
           </p>
         </div>
         <div className="sub-text">
