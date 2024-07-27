@@ -26,7 +26,7 @@ export default function FirstSection() {
           </p>
         </div>
         <div className="view-link">
-          <a href="#">I want to be MRS</a>
+          <a href="#partsix">I want to be MRS</a>
         </div>
       </div>
       <div className="right-div">

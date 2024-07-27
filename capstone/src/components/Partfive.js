@@ -19,11 +19,11 @@ export default function Partfive() {
                 <div className="image-container">
                     <img src={pablo1} alt="pablo1-image" />
                     <img src={pablo2} alt="pablo2-image" />
-                    <img src={pablo3} alt="pablo3-image" />
+                    <img id="img3" src={pablo3} alt="pablo3-image" />
                 </div>
             </div>
 
-            <div className="content">
+            <div className="content" id="cont2">
                 <h2 className="content-tittle">Shape <span className="mentoring">Mentoring</span></h2>
                 <p className="sec-tittle">RENATO CARIANI</p>
                 <p className="tree-tittle">1 online meeting per week</p>
@@ -31,11 +31,11 @@ export default function Partfive() {
                 <div className="image-container">
                     <img src={renato1} alt="renato1-image" />
                     <img src={renato2} alt="renato2-image" />
-                    <img src={renato3} alt="renato3-image" />
+                    <img id="img3" src={renato3} alt="renato3-image" />
                 </div>
             </div>
             <div className="view-link">
-                <a href="#">I want to be MRS</a>
+                <a href="#partsix">I want to be MRS</a>
             </div>
         </div> 
     );

@@ -31,7 +31,7 @@ export default function ThirdSection() {
                 <div className="text-box-no-border">This is the most complete mentoring program ever launched and will be taught by 3 market leaders to take you by the hand in the coming months.</div>
                 <div className="text-box-no-border">You can keep trying to do it yourself or guarantee never-before-seen results with us.</div>
                 <div className="view-link">
-                    <a href="#">I want to be MRS</a>
+                    <a href="#partsix">I want to be MRS</a>
                 </div>
             </div>
             <div className="right-div">

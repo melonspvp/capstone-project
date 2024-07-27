@@ -3,22 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #030b13;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
-  width: 10px; /* Largura da scrollbar */
+  width: 10px; 
 }
 
 ::-webkit-scrollbar-track {
-  background: #000000; /* Cor do fundo da scrollbar */
+  background: #000000; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #38e6f6; /* Cor da barra de rolagem */
+  background: #38e6f6; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #38e6f6; /* Cor da barra de rolagem ao passar o mouse */
+  background: #38e6f6; 
 }

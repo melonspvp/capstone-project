@@ -4,6 +4,7 @@ import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
 import FourthSection from "./components/FourthSection";
 import Partfive from "./components/Partfive";
+import Partsix from "./components/Partsix";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ThirdSection />
       <FourthSection />
       <Partfive />
+      <Partsix />
     </div>
   );
 }
